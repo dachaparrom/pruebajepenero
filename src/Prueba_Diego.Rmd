@@ -1,0 +1,29 @@
+---
+title: "Prueba JEP"
+author: "Diego Chaparro"
+date: "2025-01-22"
+output: pdf_document
+---
+
+```{r}
+# Mostrar Tabla
+
+Tabla_importada <- read.csv("/Users/Diego/Desktop/PruebaJEP/Prueba_Tecnica/output/tablaresumen.csv")
+knitr::kable(Tabla_importada)
+
+```
+## En los resultados se observa que basado en la agrupación de campos para el identificador único la fuente A presenta 6 registros únicos, la fuente B 6 registros unicos, y que ambas tienen 4  registros que comparten, lo cual se muestra en el siguiente gráfico 
+
+```{r}
+#Mostrar gráfico
+
+
+knitr::include_graphics("/Users/Diego/Desktop/PruebaJEP/Prueba_Tecnica/output/graficaresumen.png")
+
+
+
+
+
+```
+
+
